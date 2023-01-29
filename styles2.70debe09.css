@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+* {
+    box-sizing: block;
+}
+
+#submit-data {
+    font-weight: bold;
+}
+
+#selectBtn, #submit-data, #navigation, #selectBtn2 {
+    margin: 5px;
+    font-size: 20px;
+    height: 40px
+}
+
+
+/* Navbar container */
+.navbar {
+    padding-bottom: 10px;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(41, 36, 36);
+    color:rgba(255, 255, 255, 0.822);
+    flex-shrink: 0;
+}
+
+
+@media (max-width: 500px) {
+    .navbar {
+        justify-content: space-evenly;
+        display: grid;
+        min-height: 200px;
+    }
+    .navbar select, button, form {
+        padding: 1px 1px;
+        display: block;
+        float: none;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+        
+}
+
+/*# sourceMappingURL=/styles2.70debe09.css.map */
