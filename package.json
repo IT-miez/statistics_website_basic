@@ -2,13 +2,14 @@
     "name": "vanilla",
     "version": "1.0.0",
     "description": "JavaScript example starter project",
-    "source": "src/index.html",
+    "source": "index.html",
     "scripts": {
         "start": "parcel --open",
         "build": "parcel build --public-url ./"
     },
     "dependencies": {
-        "frappe-charts": "^1.6.2"
+        "frappe-charts": "^1.6.2",
+        "leaflet": "^1.9.3"
     },
     "devDependencies": {
         "@babel/core": "7.2.0",

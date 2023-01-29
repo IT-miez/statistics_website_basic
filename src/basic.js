@@ -1,4 +1,6 @@
-
+import L from "../node_modules/leaflet/dist/leaflet.js";
+import "../node_modules/leaflet/dist/leaflet.css";
+//import "leaflet-easyprint"
 
 const submitYearButton = document.getElementById("submit-data")
 
