@@ -5,10 +5,12 @@
     "source": "index.html",
     "scripts": {
         "start": "parcel --open",
-        "build": "parcel build --public-url ./"
+        "build": "parcel build --public-url ./",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
-        "frappe-charts": "^1.6.2"
+        "frappe-charts": "^1.6.2",
+        "gh-pages": "^5.0.0"
     },
     "devDependencies": {
         "@babel/core": "7.2.0",
