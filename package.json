@@ -23,5 +23,6 @@
         "starter"
     ],
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "type": "module"
 }
