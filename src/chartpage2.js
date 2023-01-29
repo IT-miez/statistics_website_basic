@@ -252,7 +252,7 @@ const buildChart2 = async (exportvalue) => {
   }
 
 
-  const chart = new Chart("#chart", {
+  const chart = new frappe.Chart("#chart", {
       title: "Debt in millions per year, first quarter only",
       type: "bar",
       data: chartData,
