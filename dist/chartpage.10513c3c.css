@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: block;
+}
+
+#submit-data {
+  font-weight: bold;
+}
+
+#selectBtn, #submit-data, #navigation, #selectBtn2 {
+  height: 40px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.navbar {
+  height: 50px;
+  z-index: 2;
+  background-color: #333;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: Arial;
+  display: flex;
+  overflow: hidden;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+footer {
+  text-align: center;
+  color: #ffffffd2;
+  background-color: #292424;
+  flex-shrink: 0;
+  padding: 3px;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    min-height: 200px;
+    justify-content: space-evenly;
+    display: grid;
+  }
+
+  .navbar select, button, form {
+    float: none;
+    width: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    padding: 1px;
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=chartpage.10513c3c.css.map */
