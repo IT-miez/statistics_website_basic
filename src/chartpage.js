@@ -1,4 +1,5 @@
-import { Chart } from "frappe-charts/dist/frappe-charts.min.esm";
+import { Chart } from "frappe-charts"
+//import { Chart } from "frappe-charts/dist/frappe-charts.min.esm";
 
 const jsonQuery1 = {
     "query": [
